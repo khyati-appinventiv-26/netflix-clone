@@ -17,9 +17,8 @@ const Icons = {
 const Images = {
     ImgBg : require('./images/imgBg2.jpg'),
     Img1 : require('./images/ImageBg3.jpg'),
-    Img2 : require('./images/watch.jpg'),
+    Img2 : require('./images/girl.png'),
     Img3 : require('./images/walkout.jpg'),
-    Img4 : require('./images/watchEvery.jpg')
-}
+    Img4 : require('./images/watchEvery.jpg'),}
 
 export {video , Icons , Images}

@@ -19,11 +19,13 @@ import {
     const handleOnClick=(movieData)=>{
       
       navigation.navigate('VideoPlayer' , {movieData})
+      
     }
   
   
+  
     const renderMovieCards = ({item, index}) => {
-      // console.log('gdgykjrlkr',item);
+      
       
       return (
         <TouchableOpacity onPress={()=>handleOnClick(item)} >
